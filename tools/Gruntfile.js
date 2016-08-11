@@ -16,15 +16,22 @@ module.exports = function(grunt) {
 		},
 
 		less: {
+			options: {
+				paths: [ 'css' ],
+				compress: {},
+				report: 'min',
+				sourceMap: true
+			},
+
 			production: {
 				files: {
-					'css/app.css': 'css/less/app.less'
+					'build/app.css': 'css/app.less'
 				}
 			}
 		},
 
 		watch: {
-			files: "css/less/*",
+			files: "css/*",
 			tasks: ["less"]
 		},
 
@@ -37,7 +44,7 @@ module.exports = function(grunt) {
 
 			project: {
 				src: 'js/app.js',
-				dest: 'js/app.min.js'
+				dest: 'build/app.min.js'
 			}
 		},
 
