@@ -11,9 +11,15 @@
   },
   "author": "Karpenko Lilya",
   "devDependencies": {
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "grunt-contrib-concat": "^0.3.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0"
   },
   "dependencies": {
-    "bootstrap": ""
+    "grunt": "0.4.5",
+    "grunt-contrib-concat": "~0.3.0"
   }
 }
