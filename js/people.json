@@ -5,6 +5,12 @@
       "last_name": "Some last name",
       "age": "34",
       "gender": "male"
+    },
+    {
+      "name": "Some name 6",
+      "last_name": "Some last name",
+      "age": "34",
+      "gender": "male"
     }
   ]
 }
