@@ -7,7 +7,7 @@
     "url": "https://bitbucket.org/kl2_karpenko/mobile-app/src"
   },
   "scripts": {
-    "start_server": "node server.js"
+    "start_server": "node tools/server.js"
   },
   "author": "Karpenko Lilya",
   "devDependencies": {
